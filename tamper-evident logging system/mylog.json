@@ -1,0 +1,40 @@
+[
+  {
+    "id": "042b349c-1590-48fe-bcaf-ccdc4738c24d",
+    "sequence": 0,
+    "timestamp": "2026-04-01T12:01:24.477283+00:00",
+    "event_type": "LOGIN",
+    "description": "Alice logged in",
+    "data": {
+      "user": "alice",
+      "ip": "192.168.1.10"
+    },
+    "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+    "entry_hash": "82695e2ae47dd1513c9c8e01d69cb90d57821712f2692bbb0af7d5e9dbfe3898"
+  },
+  {
+    "id": "46b757b0-ae7d-488f-8a24-bdf5d653d212",
+    "sequence": 1,
+    "timestamp": "2026-04-01T12:01:29.222565+00:00",
+    "event_type": "TRANSACTION",
+    "description": "Alice sent 600",
+    "data": {
+      "amount": 500,
+      "currency": "USD"
+    },
+    "previous_hash": "82695e2ae47dd1513c9c8e01d69cb90d57821712f2692bbb0af7d5e9dbfe3898",
+    "entry_hash": "3a8a817013aad746eb9a168fc55c705e9144b4a4bd1a978c1c6f21b45352ba04"
+  },
+  {
+    "id": "487eff12-96d0-4c9e-9dfd-2777416b3db6",
+    "sequence": 2,
+    "timestamp": "2026-04-01T12:01:33.193934+00:00",
+    "event_type": "LOGOUT",
+    "description": "Alice logged out",
+    "data": {
+      "user": "alice"
+    },
+    "previous_hash": "3a8a817013aad746eb9a168fc55c705e9144b4a4bd1a978c1c6f21b45352ba04",
+    "entry_hash": "4625873ee492a7d72e514cf2b30be71d1a0b6f71583dcce39b04dc81ec0067cf"
+  }
+]
